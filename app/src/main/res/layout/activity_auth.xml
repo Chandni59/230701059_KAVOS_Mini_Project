@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_primary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KAVOS"
+            android:textColor="#FFFFFF"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.15"/>
+
+        <TextView
+            android:id="@+id/tvAuthTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/auth_title_welcome"
+            android:textColor="#CCBBFF"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tvAuthSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login to your KAVOS account"
+            android:textColor="#CCBBFF"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_top_corners"
+        android:padding="28dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etAuthEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:hint="@string/hint_email"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginBottom="12dp"
+                    android:importantForAutofill="yes"
+                    android:autofillHints="emailAddress"/>
+
+                <EditText
+                    android:id="@+id/etAuthPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:hint="@string/hint_password"
+                    android:inputType="textPassword"
+                    android:layout_marginBottom="12dp"
+                    android:importantForAutofill="yes"
+                    android:autofillHints="password"/>
+
+                <EditText
+                    android:id="@+id/etAuthName"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:hint="@string/hint_name"
+                    android:inputType="textPersonName"
+                    android:layout_marginBottom="12dp"
+                    android:visibility="gone"
+                    android:importantForAutofill="yes"
+                    android:autofillHints="name"/>
+
+                <EditText
+                    android:id="@+id/etAuthPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:hint="@string/hint_phone"
+                    android:inputType="phone"
+                    android:layout_marginBottom="12dp"
+                    android:visibility="gone"
+                    android:importantForAutofill="yes"
+                    android:autofillHints="phoneNumber"/>
+
+                <EditText
+                    android:id="@+id/etAuthPin"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:hint="@string/hint_calc_code"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:layout_marginBottom="20dp"
+                    android:importantForAutofill="no"/>
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    android:layout_marginBottom="10dp"/>
+
+                <Button
+                    android:id="@+id/btnAuthAction"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="@string/btn_login"
+                    android:backgroundTint="@color/purple_primary"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="16dp"/>
+
+                <TextView
+                    android:id="@+id/tvSwitchMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/switch_to_signup"
+                    android:textColor="@color/purple_primary"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:padding="12dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

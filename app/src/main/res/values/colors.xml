@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_primary">#6200EE</color>
+    <color name="purple_dark">#3700B3</color>
+    <color name="purple_light">#EDE7F6</color>
+    <color name="purple_text">#3C3489</color>
+    <color name="purple_muted">#7E57C2</color>
+    <color name="background_light">#F8F6FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red_danger">#D32F2F</color>
+    <color name="sos_red">#C62828</color>
+    <color name="green_safe">#388E3C</color>
+    <color name="text_secondary">#757575</color>
+    <color name="calc_bg">#1C1C1E</color>
+    <color name="calc_btn_num">#333335</color>
+    <color name="calc_btn_op">#FF9F0A</color>
+    <color name="calc_btn_fn">#636366</color>
+    <color name="tip_red">#E53935</color>
+    <color name="tip_green">#43A047</color>
+    <color name="tip_blue">#1E88E5</color>
+    <color name="tip_orange">#FB8C00</color>
+    <color name="tip_purple">#8E24AA</color>
+
+    <!-- Legal-rights gradient pairs -->
+    <color name="grad_red_a">#FF5858</color>
+    <color name="grad_red_b">#F857A6</color>
+    <color name="grad_purple_a">#7E57FF</color>
+    <color name="grad_purple_b">#B47CFF</color>
+    <color name="grad_blue_a">#2193B0</color>
+    <color name="grad_blue_b">#6DD5ED</color>
+    <color name="grad_pink_a">#EE5A87</color>
+    <color name="grad_pink_b">#FF8DC7</color>
+    <color name="grad_teal_a">#11998E</color>
+    <color name="grad_teal_b">#38EF7D</color>
+    <color name="grad_green_a">#1D976C</color>
+    <color name="grad_green_b">#6FCF97</color>
+    <color name="grad_orange_a">#FF512F</color>
+    <color name="grad_orange_b">#F09819</color>
+    <color name="grad_indigo_a">#5B247A</color>
+    <color name="grad_indigo_b">#1BCEDF</color>
+</resources>

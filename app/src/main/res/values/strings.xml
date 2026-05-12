@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KAVOS</string>
+    <string name="siren_start">Siren</string>
+    <string name="siren_stop">Stop Siren</string>
+    <string name="sos_triggered">SOS Triggered!</string>
+    <string name="no_guardians">No guardians added yet.\nTap Manage Guardians below.</string>
+    <string name="loading">Loading guardians…</string>
+    <string name="tagline">Your invisible guardian</string>
+    <string name="hold_sos">Hold 2 seconds · Or shake hard 3 times</string>
+    <string name="manage_guardians">Manage Guardians</string>
+    <string name="view_history">View SOS History</string>
+    <string name="dead_switch_off">Dead Switch: OFF</string>
+    <string name="dead_switch_on">Dead Switch: ON</string>
+    <string name="add_new_guardian">Add New Guardian</string>
+    <string name="guardian_name_hint">Guardian name (e.g. Amma, Friend)</string>
+    <string name="phone_hint">Phone number (e.g. +919876543210)</string>
+    <string name="message_hint">Custom SOS message (optional)</string>
+    <string name="save_guardian">Save Guardian</string>
+    <string name="saved_guardians">Saved Guardians</string>
+    <string name="no_guardians_saved">No guardians saved yet.</string>
+    <string name="auth_title_welcome">Welcome Back</string>
+    <string name="auth_sub_welcome">Login to your KAVOS account</string>
+    <string name="auth_title_create">Create Account</string>
+    <string name="auth_sub_create">Setup your disguise and safety info</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_calc_code">Secret Calc Code (e.g. 111)</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="switch_to_signup">New here? Create an account</string>
+    <string name="switch_to_login">Already have an account? Login</string>
+</resources>

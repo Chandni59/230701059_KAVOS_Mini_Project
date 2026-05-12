@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "454535580181",
+    "project_id": "kavos-23925",
+    "storage_bucket": "kavos-23925.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454535580181:android:d976b361b59555d2eb9c1c",
+        "android_client_info": {
+          "package_name": "com.chandni.kavos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnqiHAl8yqbNgVdYx6CeJJylTYtXVxZIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
